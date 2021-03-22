@@ -1,0 +1,29 @@
+input
+{
+    tcp {
+          port => 7777
+          type => syslog
+        }
+}
+
+filter {
+  grok {
+    match => { "message" => "%{COMBINEDAPACHELOG}" }
+  }
+  date {
+    match => [ "timestamp" , "dd/MMM/yyyy:HH:mm:ss Z" ]
+  }
+  geoip {
+    source => "clientip"
+  }
+}
+
+output {
+  elasticsearch {
+    hosts => [ "localhost:9200" ]
+    index => "weblog"
+  }
+  stdout { codec => rubydebug }
+}
+
+  
