@@ -7,8 +7,8 @@
 - Une clé SSH .pem vous sera transmise sur le chat
 - si elle fournie au format .pem : 
 	Convertissez-la en .ppk(voir mini [tuto](https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format))
-- username : centos
-- adresse ip : votre adresse
+- username : `ec2-user`
+- adresse ip : `adresse ip fournie`
 - options de connection : clé ssh ppk
 	
 ### Production Tools
