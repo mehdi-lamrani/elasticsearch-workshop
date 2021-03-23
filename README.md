@@ -75,12 +75,14 @@ sudo vi /etc/kibana/kibana.yml
 ``` 
 ```
 # Kibana is served by a back end server. This setting specifies the port to use.
-server.port: 5601 <<<<<< :warning: VERIFIER CA
+
+server.port: 5601 <<<<<< ⚠⚠⚠ VERIFIER ÇA ⚠⚠⚠
 
 # Specifies the address to which the Kibana server will bind. IP addresses and host names are both valid values.
 # The default is 'localhost', which usually means remote machines will not be able to connect.
 # To allow connections from remote users, set this parameter to a non-loopback address.
-server.host: 0.0.0.0 <<<<<< :warning: CHANGER CA
+
+server.host: 0.0.0.0 <<<<<< ⚠⚠⚠ CHANGER ÇA ⚠⚠⚠
 ```
 
 - Sauvegarder
