@@ -27,7 +27,7 @@ sudo yum install -y wget
 
 ### Installation ElasticSearch
 
-- Centos/RHEL
+- Centos/RHEL/AMZN
 ```
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-x86_64.rpm
 sudo rpm -i elasticsearch-7.6.2-x86_64.rpm
@@ -44,7 +44,7 @@ sudo service elasticsearch start
 ```
 
 ### Installation Logstash
-- Centos/RHEL
+- Centos/RHEL/AMZN
 ```
 wget https://artifacts.elastic.co/downloads/logstash/logstash-7.6.2.rpm
 sudo rpm -i logstash-7.6.2.rpm
