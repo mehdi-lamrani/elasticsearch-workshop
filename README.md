@@ -76,7 +76,7 @@ sudo vi /etc/kibana/kibana.yml
 ```
 # Kibana is served by a back end server. This setting specifies the port to use.
 
-server.port: 5601 <<<<<< ⚠⚠⚠ VERIFIER ÇA ⚠⚠⚠
+server.port: 5601 <<<<<< ⚠⚠⚠ DECOMMENTER ÇA ⚠⚠⚠
 
 # Specifies the address to which the Kibana server will bind. IP addresses and host names are both valid values.
 # The default is 'localhost', which usually means remote machines will not be able to connect.
