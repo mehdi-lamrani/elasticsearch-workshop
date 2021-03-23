@@ -94,4 +94,8 @@ sudo service kibana start
 
 ### Vérification de votre accès Web
 
+```
+curl http://checkip.amazonaws.com
+```
+
 - http://votre.adresse.IP:5601
