@@ -22,7 +22,7 @@ https://jolicode.com/blog/quel-client-php-pour-elasticsearch
 
 Déployer des services Rest grâce à Spring Boot et Webflux Reactive pour réaliser les mêmes opérations avec l’API Java d’Elasticsearch en intéraction avec le même index TMDB.
 
-**Project Reactor :**
+#####Project Reactor :
 Reactor est l’implémentation des flux réactifs par Spring. Project Reactor est d’ailleurs intégré dans Spring 5, avec les WebFlux.
 Project Reactor est directement embarqué avec Spring 5, et la bibliothèque est écrite en Java 8. Tandis que RxJava se doit de rester compatible avec Android et est écrit en Java 6.
 
