@@ -51,7 +51,16 @@ Pour initialiser le projet Maven, rendez-vous sur https://start.spring.io.
 
 1. Importer le projet en tant que projet Maven.
 
-2. Créer des services REST en WebFlux Spring Reactive.
+2. Ajouter la dépendance Maven Elasticsearch :
+```
+		<dependency>
+			<groupId>org.elasticsearch.client</groupId>
+			<artifactId>elasticsearch-rest-high-level-client</artifactId>
+			<version>7.11.1</version><!--$NO-MVN-MAN-VER$ -->
+		</dependency>
+```
+
+3. Créer des services REST en WebFlux Spring Reactive.
 
 Suivre le tutoriel ci dessous :
 https://spring.io/guides/gs/reactive-rest-service/
