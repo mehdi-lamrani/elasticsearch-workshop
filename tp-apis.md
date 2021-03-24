@@ -12,11 +12,11 @@ Réalisation d’une page en HTML et utiliser la librairie Elasticsearch/PHP pou
 
 * Pouvoir faire une recherche multi-critères : Nom + genre.
 
-Utiliser le libraire PHP officiel Elasticsearch :<br/>
-https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html
-
-Il existe d'autres librairies, comme décrit dans le lien ci dessous :<br>
+Il existe d'autres librairies PHP pour intéragir avec Elasticsearch, comme décrit dans le lien ci dessous :<br>
 https://jolicode.com/blog/quel-client-php-pour-elasticsearch
+
+Utiliser la librairie PHP officiel Elasticsearch :<br/>
+https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html
 
 # Elasticsearch Java client
 
