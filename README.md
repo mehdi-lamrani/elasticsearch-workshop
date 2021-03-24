@@ -56,7 +56,7 @@ sudo dpkg -i logstash-7.6.2.deb
 ```
 
 ### Installation Kibana
-- Centos/RHEL
+- Centos/RHEL/AMZN
 ```
 wget https://artifacts.elastic.co/downloads/kibana/kibana-7.6.2-x86_64.rpm
 sudo rpm -i kibana-7.6.2-x86_64.rpm
