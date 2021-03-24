@@ -12,9 +12,19 @@ Réalisation d’une page en HTML et utiliser la librairie Elasticsearch/PHP pou
 
 * Pouvoir faire une recherche multi-critères : Nom + genre.
 
+Utiliser le libraire PHP officiel Elasticsearch :<br/>
+https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html
+
+Il existe d'autres librairies, comme décrit dans le lien ci dessous :<br>
+https://jolicode.com/blog/quel-client-php-pour-elasticsearch
+
 # Elasticsearch Java client
 
-Déployer des services Rest grâce à Spring Boot et Webflux pour réaliser les mêmes opérations avec l’API Java d’Elasticsearch en intéraction avec le même index TMDB.
+Déployer des services Rest grâce à Spring Boot et Webflux Reactive pour réaliser les mêmes opérations avec l’API Java d’Elasticsearch en intéraction avec le même index TMDB.
+
+**Project Reactor :**
+Reactor est l’implémentation des flux réactifs par Spring. Project Reactor est d’ailleurs intégré dans Spring 5, avec les WebFlux.
+Project Reactor est directement embarqué avec Spring 5, et la bibliothèque est écrite en Java 8. Tandis que RxJava se doit de rester compatible avec Android et est écrit en Java 6.
 
 ### Créer une application SpringBoot
 
