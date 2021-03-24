@@ -11,6 +11,8 @@ wget https://file.io/UkUb2iyr3ToC -O tmdb-mapping.json
 
 2. Créer l'index avec le mapping en utilisant l'API `_bulk`
 
+### Application Web tmdb
+
 <img src="https://i.ibb.co/mvf4N6j/Screenshot-from-2021-03-05-16-39-58.png" width="60%">
 
 Réalisation d’une page en HTML et utiliser la librairie Elasticsearch/PHP pour :
