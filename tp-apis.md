@@ -1,5 +1,16 @@
 # Elasticsearch PHP client
 
+### Création de l'index tmdb
+
+1. Récupérer le fhichiers de mapping de l'index ainsi que le dataset :
+```
+wget https://file.io/O51u3O29GiHu -O tmdb.json
+
+wget https://file.io/UkUb2iyr3ToC -O tmdb-mapping.json
+```
+
+2. Créer l'index avec le mapping en utilisant l'API `_bulk`
+
 <img src="https://i.ibb.co/mvf4N6j/Screenshot-from-2021-03-05-16-39-58.png" width="60%">
 
 Réalisation d’une page en HTML et utiliser la librairie Elasticsearch/PHP pour :
