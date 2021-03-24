@@ -63,6 +63,11 @@ http://localhost:8080/movies/ratings/average?genre=Animation
 http://localhost:8080/movies/ratings/topten?genre=Animation
 ```
 
+* La répartition des films par notes.
+```
+http://localhost:8080/movies/ratings/histogram
+```
+
 * Réaliser une agrégation pour retrouver les genres de films.
 ```
 http://localhost:8080/genres
