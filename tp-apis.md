@@ -30,6 +30,10 @@ Project Reactor est directement embarqué avec Spring 5, et la bibliothèque est
 
 Pour initialiser le projet Maven, rendez-vous sur https://start.spring.io.
 
+1. Choisir la version 11 de Java.
+2. Choisir la version 2.4.4 de Spring Boot.
+3. Ajouter l& d&pendecne "Spring Reactive Web".
+
 ### Ouvrir le projet dans votre IDE préféré
 
 Créer un projet Maven.
