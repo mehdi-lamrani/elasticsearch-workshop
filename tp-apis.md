@@ -36,14 +36,14 @@ Pour initialiser le projet Maven, rendez-vous sur https://start.spring.io.
 
 ### Ouvrir le projet dans votre IDE préféré
 
-Créer un projet Maven.
+1. Importer le projet en tant que projet Maven.
 
-Créer des services REST en WebFlux Spring Reactive.
+2. Créer des services REST en WebFlux Spring Reactive.
 
 Suivre le tutoriel ci dessous :
 https://spring.io/guides/gs/reactive-rest-service/
 
-La partie "Create a WebClient" n'est pas nécessaire, les appels se feront en cURL ou sur un client REST comme Postman.
+La partie "Create a WebClient" dans le tutoriel n'est pas nécessaire, les appels se feront en cURL ou sur un client REST comme Postman.
 
 ### Les services REST à créer
 
