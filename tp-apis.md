@@ -66,6 +66,17 @@ $ ls -l
 * Le fichier composer.lock contient la liste des packages installés avec les numéros de version.
 * Le fichier composer.json decrit le projet PHP et toutes les dépendances PHP.
 
+```
+::::::::::::::
+composer.json
+::::::::::::::
+{
+    "require": {
+        "elasticsearch/elasticsearch": "^7.12"
+    }
+}
+```
+
 5. Créer la page index.php et développer l'application.
 
 6. Déploiement sous apache2 :
