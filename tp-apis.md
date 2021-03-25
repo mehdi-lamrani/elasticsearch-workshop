@@ -36,7 +36,7 @@ https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html
 $ sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
 ```
 
-2. Installer Composer
+2. Installer Composer<br/>
 Composer est un logiciel gestionnaire de dépendances libre écrit en PHP. Il permet à ses utilisateurs de déclarer et d'installer les bibliothèques dont le projet principal a besoin.
 
 ```
