@@ -6,9 +6,9 @@ Déployer des services Rest grâce à Spring Boot et Webflux Reactive pour réal
 
 1. Récupérer le fhichiers de mapping de l'index ainsi que le dataset :
 ```
-wget https://file.io/O51u3O29GiHu -O tmdb.json
+wget https://file.io/JJYEZjReDcMo -O tmdb.json
 
-wget https://file.io/UkUb2iyr3ToC -O tmdb-mapping.json
+wget https://file.io/d9tZ3LtZDSgb -O tmdb-mapping.json
 ```
 
 2. Créer l'index avec le mapping en utilisant l'API `_bulk`
