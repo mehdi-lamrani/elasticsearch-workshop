@@ -20,6 +20,10 @@ cd donwnloads
  ```
 ssh -i "cle-ssh.pem" ec2-user@ec2-addresse_ip.compute-1.amazonaws.com
 ```
+Pour vérifier la version Linux:
+ ```
+cat /etc/os-release
+```
 	
 ### Production Tools
 
