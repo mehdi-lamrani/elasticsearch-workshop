@@ -39,6 +39,16 @@ sudo yum install -y java
 sudo yum install -y wget
 ```
 Il faut disposer de java 11 amazon corretto jdk :
+```
+ wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - 
+ sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
+```
+Après avoir ajouté ce repo, installer Corretto 11 :
+```
+ sudo apt-get update; sudo apt-get install -y java-11-amazon-corretto-jdk
+```
+
+
 
 ### Installation ElasticSearch
 
