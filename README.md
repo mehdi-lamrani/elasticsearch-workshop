@@ -12,7 +12,7 @@
 - adresse ip : `adresse ip fournie`
 - options de connection : clé ssh ppk
 - Se rendre dans le repository ou vous  avez mis votre fichier pem
-- Par exemple, si vous êtes sur windows et que vous l'avez mise dans le dossier téléchargements :
+- Par exemple, si vous êtes sur windows et que vous l'avez mis dans le dossier téléchargements :
 ```
 cd donwnloads
 ```
