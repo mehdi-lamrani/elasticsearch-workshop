@@ -3,7 +3,7 @@
 ### Connexion à votre instance linux
 
 - Utiliser l'invite de commande directement si vous êtes sur Windows
-- S'iil le faut, installer [mobaXterm](https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip) si vous êtes sur Windows
+- S'il le faut, installer [mobaXterm](https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip) si vous êtes sur Windows
 - Vos Credentials et IP respectives vous seront envoyés sur le chat
 - Une clé SSH .pem vous sera transmise sur le chat
 - si elle fournie au format .pem : 
