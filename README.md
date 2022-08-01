@@ -116,6 +116,10 @@ server.host: 0.0.0.0 <<<<<< ⚠⚠⚠ CHANGER ÇA ⚠⚠⚠
 ```
 sudo service kibana start
 ```
+### Vérifier le démarrage d'un service
+```
+sudo service nom_service status
+```
 
 ### Vérification de votre accès Web
 
