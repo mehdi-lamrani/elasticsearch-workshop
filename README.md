@@ -124,6 +124,6 @@ curl http://checkip.amazonaws.com
 ```
 Sur votre navigateur, se rendre sur l'addresse suivante :
 - http://votre.adresse.IP:5601
-- Le logo charge et vous vous rentrouvez tout de suite sur la page d'accueil!
+- Le logo charge et vous vous rentrouvez tout de suite sur la page d'accueil de Kibana!
 
 ![kibana_home](https://user-images.githubusercontent.com/73080397/182124922-6cbcfe1c-bee4-455d-8190-f84c8a693737.png)
