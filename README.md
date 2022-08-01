@@ -2,8 +2,8 @@
 
 ### Connexion à votre instance linux
 
-- Utiliser l'invite de commande directement si vous êtes sur Windows
-- S'il le faut, installer [mobaXterm](https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip) si vous êtes sur Windows
+- Utiliser l'invite de commande directement si vous êtes sur Windows10
+- Sinon s'il le faut, installer [mobaXterm](https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip) si vous êtes sur Windows
 - Vos Credentials et IP respectives vous seront envoyés sur le chat
 - Une clé SSH .pem vous sera transmise sur le chat
 - si elle fournie au format .pem : 
@@ -12,7 +12,7 @@
 - adresse ip : `adresse ip fournie`
 - options de connection : clé ssh ppk
 - Se rendre dans le repository ou vous  avez mis votre fichier pem
-- par exemple, si vous êtes sur windows et que vous l'avez mise dans le dossier téléchargements :
+- Par exemple, si vous êtes sur windows et que vous l'avez mise dans le dossier téléchargements :
 ```
 cd donwnloads
 ```
@@ -34,6 +34,7 @@ ssh -i "cle-ssh.pem" ec2-user@ec2-addresse_ip.compute-1.amazonaws.com
 sudo yum install -y java
 sudo yum install -y wget
 ```
+Il faut disposer de java 11 amazon corretto jdk :
 
 ### Installation ElasticSearch
 
