@@ -16,7 +16,7 @@
 ```
 cd donwnloads
 ```
-- et puis connecctez-vous à l'instance EC2 :
+- et puis connectez-vous à l'instance EC2 :
  ```
 ssh -i "cle-ssh.pem" ec2-user@ec2-addresse_ip.compute-1.amazonaws.com
 ```
