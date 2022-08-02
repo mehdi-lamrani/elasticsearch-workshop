@@ -10,4 +10,6 @@ Dans le cadre de cette formation, nous allons utiliser trois setup ES différent
 
 
 Le formateur vous avisera quand on passera de l'un à l'autre. 
+Pour commencer, installez seulement le setup Cloud. 
+Nous reviendrons sur les autres en temps voulu?
 
