@@ -6,8 +6,9 @@
 - Sinon s'il le faut, installer [mobaXterm](https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip) si vous êtes sur Windows
 - Vos Credentials et IP respectives vous seront envoyés sur le chat
 - Une clé SSH .pem vous sera transmise sur le chat
-- si elle fournie au format .pem : 
-	Convertissez-la en .ppk(voir mini [tuto](https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format))
+- si vous passez par MobaXterm ou Putty, vous devez convertir la clé du format .pem au format .ppk 
+  voir mini [tuto](https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format))
+  (**attention**, cette operation est souvent très hasardeuse au vu des différentes versions compatibles)
 - username : `ec2-user`
 - adresse ip : `adresse ip fournie`
 - options de connection : clé ssh ppk
