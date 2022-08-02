@@ -7,13 +7,14 @@
 - Vos Credentials et IP respectives vous seront envoyés sur le chat
 - Une clé SSH .pem vous sera transmise sur le chat
 - si vous passez par MobaXterm ou Putty, vous devez convertir la clé du format .pem au format .ppk 
-  voir mini [tuto](https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format))
-  (**attention**, cette operation est souvent très hasardeuse au vu des différentes versions compatibles)
+  voir ce mini [tuto](https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format)). 
+  (**attention**, cette operation est souvent très hasardeuse au vu des différentes versions compatibles). 
+  
 - username : `ec2-user`
 - adresse ip : `adresse ip fournie`
 - options de connection : clé ssh ppk
-- Se rendre dans le repository ou vous  avez mis votre fichier pem
-- Par exemple, si vous êtes sur windows et que vous l'avez mis dans le dossier téléchargements :
+- Se rendre dans le repertoire où vous  avez mis votre fichier pem
+  Par exemple, si vous êtes sur windows et que vous l'avez mis dans le dossier téléchargements :
 ```
 cd downloads
 ```
