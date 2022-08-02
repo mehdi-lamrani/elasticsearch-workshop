@@ -2,7 +2,7 @@
 
 ### Connexion à votre instance linux
 - Utiliser l'invite de commande directement si vous êtes sur Windows10
-![image](https://user-images.githubusercontent.com/73080397/182381175-0a91c49a-c047-4d97-9470-6b3f424d2e67.png)
+<img src=https://user-images.githubusercontent.com/73080397/182381175-0a91c49a-c047-4d97-9470-6b3f424d2e67.png width="200">
 - Ouvrir le terminal si vous êtes sur MacOS
   ![open-folder-application-terminal](https://user-images.githubusercontent.com/73080397/182381582-8eb3bccb-c9bd-4c4d-acf5-f0e510b748a3.png)
 - Sinon s'il le faut, installer [mobaXterm](https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip) si vous êtes sur Windows
