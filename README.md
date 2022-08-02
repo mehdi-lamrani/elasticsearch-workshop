@@ -37,9 +37,13 @@ cat /etc/os-release
 	
 ### Production Tools
 
-- Installer les outils suivants : 
+<details>
+	- Installer les outils suivants : 
 	- [VS Code](https://code.visualstudio.com/download)
 	- [GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop)
+<details>
+		
+- Ouvrage de Référence : 
 	- [ElasticSearch - The Definitive Guide ](https://drive.google.com/open?id=1dtJhgRiVfaTrqpDqi4MA4HRK5K2iWSr6)
 - IMPORTANT : L'ouvrage vous est fourni à titre de démo, merci de penser aux auteurs et de l'acheter légalement
 
