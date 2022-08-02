@@ -35,22 +35,33 @@ cat /etc/os-release
 	- [ElasticSearch - The Definitive Guide ](https://drive.google.com/open?id=1dtJhgRiVfaTrqpDqi4MA4HRK5K2iWSr6)
 - IMPORTANT : L'ouvrage vous est fourni à titre de démo, merci de penser aux auteurs et de l'acheter légalement
 
-### Installation de Java & wget
+### Installation de Java 
+
+- Si vous êtes sous AMZN Linux 2 (ce qui est très probablement le cas)
+
+Il faut installer java 11 amazon corretto jdk :
+
+```
+sudo yum install java-11-amazon-corretto-headless
+```
+
+La version 17 installée par défaut sans spécifier la version n'est PAS encore compatible avec ES
+
+- Si vous êtes sur Centos/RHEL
+
+:warning: pensez à bien vérifier la compatibilité de la version de Java avec la version d'ES
+(demander au formateur)
+
 ```
 sudo yum install -y java
+```
+
+
+### Installation de wget 
+
+```
 sudo yum install -y wget
 ```
-Il faut disposer de java 11 amazon corretto jdk :
-```
- wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - 
- sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
-```
-Après avoir ajouté ce repo, installer Corretto 11 :
-```
- sudo apt-get update; sudo apt-get install -y java-11-amazon-corretto-jdk
-```
-
-
 
 ### Installation ElasticSearch
 
