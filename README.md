@@ -38,9 +38,13 @@ cat /etc/os-release
 ### Production Tools
 
 <details>
-	- Installer les outils suivants : 
-	- [VS Code](https://code.visualstudio.com/download)
-	- [GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop)
+<summary></summary>
+	- outils optionnels (ne pas installer pour le moment) :   
+	
+	- [VS Code](https://code.visualstudio.com/download)  
+	
+	- [GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop)  
+	
 </details>
 		
 - Ouvrage de Référence : 
