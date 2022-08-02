@@ -14,7 +14,7 @@
 - Se rendre dans le repository ou vous  avez mis votre fichier pem
 - Par exemple, si vous êtes sur windows et que vous l'avez mis dans le dossier téléchargements :
 ```
-cd donwnloads
+cd downloads
 ```
 - et puis connectez-vous à l'instance EC2 :
  ```
