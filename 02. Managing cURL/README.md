@@ -1,9 +1,13 @@
 ---
-#### 02. Envoyer des requêtes avec cURL (Cloud)
+#### 02. Envoyer des requêtes avec cURL (Elastic Cloud)
 ---
 
+- ElasticSearch permet d'accéder à des requêtes API de deux ordres : 
+     - Les requêtes applicatives (relatives aux application ES)
+     - Les requetes administratives (relatives à la gestion des déploiements)
+     
 ---
-##### a. Envoyer des requêtes applicatives (Elastic)
+##### a. Envoyer des requêtes applicatives (Elastic Cloud Applications)
 ---
 
 - Aller à https://cloud.elastic.co/home
