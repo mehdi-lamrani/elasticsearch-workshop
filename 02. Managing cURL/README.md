@@ -6,6 +6,36 @@
 ##### a. Envoyer des requêtes applicatives (Elastic)
 ---
 
+- Aller à https://cloud.elastic.co/home
+
+- Aller à https://cloud.elastic.co/home
+
+![es-deployment-list](https://user-images.githubusercontent.com/28993140/182843852-17285c83-dff7-4225-bdee-c2f751592bbe.png)
+
+Noter le endpoint
+
+![es-deploy-endpoint](https://user-images.githubusercontent.com/28993140/182845819-67c250e5-6c24-4288-a58a-cc34116bb691.png)
+
+![es-stack mgmt](https://user-images.githubusercontent.com/28993140/182843868-78987cb2-67c5-4058-a565-e6c70b79f865.png)
+
+![es-api-keys](https://user-images.githubusercontent.com/28993140/182843864-9c0f955a-225b-4745-bb49-5219a41007b7.png)
+
+![es-api-keys-2](https://user-images.githubusercontent.com/28993140/182843862-84a549d8-2694-4bfd-8353-4361edb23882.png)
+
+![es-api-keys-3](https://user-images.githubusercontent.com/28993140/182843857-0c326710-44ab-46ce-ba72-3e6d593c5325.png)
+
+![es-api-keys-4](https://user-images.githubusercontent.com/28993140/182843854-70128494-d72c-42df-87da-04e36cad8ea7.png)
+
+```
+curl -k -X GET -H "Authorization: ApiKey Rm54OGFJSUJFLXIteWhyTThXXXXXXXXXXXXXXXXXXTd1dFc2ZMVzRuamRfQQ==" https://my-deployment-b4ebde.es.us-east-1.aws.found.io:9243/_cat/indices?v 
+```
+
+![es-curl](https://user-images.githubusercontent.com/28993140/182844268-5964430b-1a18-4a25-aae4-ff8403e185fa.png)
+
+
+---
+##### b. Envoyer des requêtes d'administration (Elastic Service)
+---
 
 ![es-deployment-list](https://user-images.githubusercontent.com/28993140/182843852-17285c83-dff7-4225-bdee-c2f751592bbe.png)
 
@@ -24,30 +54,6 @@ Noter le endpoint
 ![es-deploy-api-keys-4](https://user-images.githubusercontent.com/28993140/182843828-8d433a0d-0e09-4609-aef3-71d8dbc49b85.png)
 
 
-```
-curl -k -X GET -H "Authorization: ApiKey Rm54OGFJSUJFLXIteWhyTThXXXXXXXXXXXXXXXXXXTd1dFc2ZMVzRuamRfQQ==" https://my-deployment-b4ebde.es.us-east-1.aws.found.io:9243/_cat/indices?v 
-```
-
-![es-curl](https://user-images.githubusercontent.com/28993140/182844268-5964430b-1a18-4a25-aae4-ff8403e185fa.png)
-
-
----
-##### a. Envoyer des requêtes d'administration (Elastic Service)
----
-
-- Aller à https://cloud.elastic.co/home
-
-
-
-![es-stack mgmt](https://user-images.githubusercontent.com/28993140/182843868-78987cb2-67c5-4058-a565-e6c70b79f865.png)
-
-![es-api-keys](https://user-images.githubusercontent.com/28993140/182843864-9c0f955a-225b-4745-bb49-5219a41007b7.png)
-
-![es-api-keys-2](https://user-images.githubusercontent.com/28993140/182843862-84a549d8-2694-4bfd-8353-4361edb23882.png)
-
-![es-api-keys-3](https://user-images.githubusercontent.com/28993140/182843857-0c326710-44ab-46ce-ba72-3e6d593c5325.png)
-
-![es-api-keys-4](https://user-images.githubusercontent.com/28993140/182843854-70128494-d72c-42df-87da-04e36cad8ea7.png)
 
 ```
 curl -k -X GET -H "Authorization: ApiKey RjRCeWFJSUJ6WGkXXXXXXXXXXXXdVZBOTVTSUd6NmV4ci1BZWZLZw==" https://api.elastic-cloud.com/api/v1/deployments```
