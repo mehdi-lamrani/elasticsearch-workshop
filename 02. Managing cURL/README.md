@@ -8,13 +8,13 @@
 
 - Aller à https://cloud.elastic.co/home
 
-- Aller à https://cloud.elastic.co/home
-
 ![es-deployment-list](https://user-images.githubusercontent.com/28993140/182843852-17285c83-dff7-4225-bdee-c2f751592bbe.png)
 
-Noter le endpoint
+- Noter le endpoint
 
 ![es-deploy-endpoint](https://user-images.githubusercontent.com/28993140/182845819-67c250e5-6c24-4288-a58a-cc34116bb691.png)
+
+- Aller au Stack Management dans Kibana
 
 ![es-stack mgmt](https://user-images.githubusercontent.com/28993140/182843868-78987cb2-67c5-4058-a565-e6c70b79f865.png)
 
@@ -36,6 +36,7 @@ curl -k -X GET -H "Authorization: ApiKey Rm54OGFJSUJFLXIteWhyTThXXXXXXXXXXXXXXXX
 ---
 ##### b. Envoyer des requêtes d'administration (Elastic Service)
 ---
+- Aller à https://cloud.elastic.co/home
 
 ![es-deployment-list](https://user-images.githubusercontent.com/28993140/182843852-17285c83-dff7-4225-bdee-c2f751592bbe.png)
 
