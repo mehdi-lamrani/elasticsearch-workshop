@@ -30,9 +30,12 @@
 
 ![es-api-keys-4](https://user-images.githubusercontent.com/28993140/182843854-70128494-d72c-42df-87da-04e36cad8ea7.png)
 
+- Depuis un terminal : 
+
 ```
 curl -k -X GET -H "Authorization: ApiKey Rm54OGFJSUJFLXIteWhyTThXXXXXXXXXXXXXXXXXXTd1dFc2ZMVzRuamRfQQ==" https://my-deployment-b4ebde.es.us-east-1.aws.found.io:9243/_cat/indices?v 
 ```
+
 
 ![es-curl](https://user-images.githubusercontent.com/28993140/182844268-5964430b-1a18-4a25-aae4-ff8403e185fa.png)
 
@@ -58,7 +61,7 @@ Noter le endpoint
 
 ![es-deploy-api-keys-4](https://user-images.githubusercontent.com/28993140/182843828-8d433a0d-0e09-4609-aef3-71d8dbc49b85.png)
 
-
+- Depuis un terminal : 
 
 ```
 curl -k -X GET -H "Authorization: ApiKey RjRCeWFJSUJ6WGkXXXXXXXXXXXXdVZBOTVTSUd6NmV4ci1BZWZLZw==" https://api.elastic-cloud.com/api/v1/deployments```
