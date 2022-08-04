@@ -3,7 +3,7 @@
 ---
 
 - ElasticSearch permet d'accéder à des requêtes API de deux ordres : 
-     - Les requêtes applicatives (relatives aux application ES)
+     - Les requêtes applicatives (relatives aux applications ES)
      - Les requetes administratives (relatives à la gestion des déploiements)
      
 ---
