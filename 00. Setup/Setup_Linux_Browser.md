@@ -1,4 +1,4 @@
-- Ouvrez  ce tableau  excel
+- Ouvrez  le tableau  excel elastic_environnements
 - Accédez à Ubuntu Web Interface URL
 - Remplacer  l'utilisateur Ubuntu par votre nom d'utilisateur et utilisez votre mot de passe.
 - Maintenant que vous avez accédé à la machine via votre navigateur, ouvrez un terminal via le menu dans le coin supérieur gauche (Tapez terminal et cliquez sur MATE Terminal).
